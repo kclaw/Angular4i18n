@@ -25,7 +25,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "  \n  html {\n    width: 80%;\n    margin: 0 auto;\n    font-size: 12px;\n  }\n  \n  main {\n    min-height: 500px;\n  }\n\n  .navbar-wrapper {\n    background: url(" + __webpack_require__("./src/assets/cat2.svg") + ") no-repeat right top;\n  }\n\n  .navbar {\n    border-bottom: 0.33em double #d2d2d2;\n    padding-top: 2.2em;\n    margin-bottom: 2.2em;\n  }\n\n\n  .navbar.top-right-corner {\n    border-bottom: 0;\n    float: right;\n  }\n\n  .navbar.top-right-corner::after {\n    clear: both;\n  }\n\n  .navbar .button {\n    background-color: #e00dc4;\n    border: none;\n    color: white;\n    padding: 2em 2.5em;\n    font-size: 2em;\n    text-align: center;\n    text-decoration: none;\n    display: inline-block;\n    margin: 1em 0.5em;\n    cursor: pointer;\n    width: 200px;\n  }\n\n  @media only screen and (max-width: 608px) {\n    .navbar.top-right-corner .language {\n      width: 100%;\n    }\n    .navbar.top-right-corner {\n      width: 100%;\n      height: 50em;\n    }\n    .navbar-wrapper {\n      background: url(" + __webpack_require__("./src/assets/cat2.svg") + ") no-repeat right 45.6em;\n    }\n    .navbar.top-right-corner .button {\n      width: 100%;\n      font-size: 2em !important;\n    }\n    .navbar .button{\n      width: 100%;\n      margin: 1em 0; \n    }\n\n    html {\n      font-size: 24px;\n    }\n  }\n\n  @media only screen and (min-width: 609px) {\n    .navbar.top-right-corner .button {\n      width: 12em;\n    }\n  }\n\n  .navbar.top-right-corner {\n    min-height: 20em;\n  }\n\n  .navbar.top-right-corner .button {\n    display: inline-block;\n    position: relative;\n    top: 0;\n    z-index: 3;\n    background: lightgray;\n    color: #1172c4;\n    border-color: #1172c4;\n    border-style: solid;\n    border-width: 0.2em;\n    border-radius: 1.5em;\n    padding: 0.5em 3em;\n    white-space: nowrap;\n    text-transform: uppercase;\n    transition: all 0.2s linear;\n    font-size: 1em;\n    text-overflow: clip;\n    overflow: hidden;\n    height: 3em;\n    vertical-align: top;\n  }\n  \n\n\n  .navbar.top-right-corner .button:hover {\n    background-color: #696869;\n  }\n\n  .navbar.top-right-corner .button::before {\n    position: absolute;\n    content: url(" + __webpack_require__("./src/assets/test.svg") + ");\n    top: calc(50% - 0.5em);\n    left: 1em;\n    width: 1em;\n    height: 1em;\n  }\n\n  .navbar.top-right-corner .button.button-language {\n    overflow: initial;\n  }\n\n  .navbar.top-right-corner .language {\n    position: relative;\n    display: inline-block;\n  }\n\n  .navbar.top-right-corner .button.button-language + ul {\n    display: none;\n    position: relative;\n    right: 0;\n    background-color: #f9f9f9;\n    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);\n    list-style-type: none;\n  }\n\n  .navbar.top-right-corner .button.button-language + ul.show {\n    display: block;\n  }\n\n  .navbar.top-right-corner .button.button-language + ul li {\n    display: block;\n    text-align: center;\n    line-height: 2em;\n    font-size: 2em;\n    height: 2em;\n  }\n\n  .navbar.top-right-corner .button.button-language + ul li.current-language {\n    background-color: palegoldenrod;\n  }\n\n  .navbar .button:hover {\n    background-color: #0813e0;\n    color: white;\n  }\n\n  footer {\n    border-top: 0.33em double #d2d2d2;\n    font-size: 1.5em;\n  }\n\n  footer ul {\n    list-style: none;\n    color: grey;\n  }\n\n  footer ul li {\n    cursor: pointer;\n  }\n\n  footer .license {\n    color: lightcoral;\n    text-align: center;\n  }", ""]);
+exports.push([module.i, "  html {\n    width: 80%;\n    margin: 0 auto;\n    font-size: 12px;\n  }\n  \n  main {\n    min-height: 500px;\n  }\n\n  .navbar-wrapper {\n    background: url(" + __webpack_require__("./src/assets/cat2.svg") + ") no-repeat right top;\n  }\n\n  .navbar {\n    border-bottom: 0.33em double #d2d2d2;\n    padding-top: 2.2em;\n    margin-bottom: 2.2em;\n  }\n\n\n  .navbar.top-right-corner {\n    border-bottom: 0;\n    float: right;\n  }\n\n  .navbar.top-right-corner::after {\n    clear: both;\n  }\n\n  .navbar .button {\n    background-color: #e00dc4;\n    border: none;\n    color: white;\n    padding: 2em 2.5em;\n    font-size: 2em;\n    text-align: center;\n    text-decoration: none;\n    display: inline-block;\n    margin: 1em 0.5em;\n    cursor: pointer;\n    width: 200px;\n  }\n\n  @media only screen and (max-width: 608px) {\n    .navbar.top-right-corner .language {\n      width: 100%;\n    }\n    .navbar.top-right-corner {\n      width: 100%;\n      height: 50em;\n    }\n    .navbar-wrapper {\n      background: url(" + __webpack_require__("./src/assets/cat2.svg") + ") no-repeat right 45.6em;\n    }\n    .navbar.top-right-corner .button {\n      width: 100%;\n      font-size: 2em !important;\n    }\n    .navbar .button{\n      width: 100%;\n      margin: 1em 0; \n    }\n\n    html {\n      font-size: 24px;\n    }\n  }\n\n  @media only screen and (min-width: 609px) {\n    .navbar.top-right-corner .button {\n      width: 12em;\n    }\n  }\n\n  .navbar.top-right-corner {\n    min-height: 20em;\n  }\n\n  .navbar.top-right-corner .button {\n    display: inline-block;\n    position: relative;\n    top: 0;\n    z-index: 3;\n    background: lightgray;\n    color: #1172c4;\n    border-color: #1172c4;\n    border-style: solid;\n    border-width: 0.2em;\n    border-radius: 1.5em;\n    padding: 0.5em 3em;\n    white-space: nowrap;\n    text-transform: uppercase;\n    transition: all 0.2s linear;\n    font-size: 1em;\n    text-overflow: clip;\n    overflow: hidden;\n    height: 3em;\n    vertical-align: top;\n  }\n  \n  .navbar.top-right-corner .button:hover {\n    background-color: #696869;\n  }\n\n  .navbar.top-right-corner .button::before {\n    position: absolute;\n    content: url(" + __webpack_require__("./src/assets/test.svg") + ");\n    top: calc(50% - 0.5em);\n    left: 1em;\n    width: 1em;\n    height: 1em;\n  }\n\n  .navbar.top-right-corner .language {\n    position: relative;\n    display: inline-block;\n  }\n\n  .navbar.top-right-corner .button.button-language + ul {\n    display: none;\n    position: relative;\n    right: 0;\n    background-color: #f9f9f9;\n    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);\n    list-style-type: none;\n  }\n\n  .navbar.top-right-corner .button.button-language + ul.show {\n    display: block;\n  }\n\n  .navbar.top-right-corner .button.button-language + ul li {\n    display: block;\n    text-align: center;\n    line-height: 2em;\n    font-size: 2em;\n    height: 2em;\n  }\n\n  .navbar.top-right-corner .button.button-language + ul li.current-language {\n    background-color: palegoldenrod;\n  }\n\n  .navbar .button:hover {\n    background-color: #0813e0;\n    color: white;\n  }\n\n  footer {\n    border-top: 0.33em double #d2d2d2;\n    font-size: 1.5em;\n  }\n\n  footer ul {\n    list-style: none;\n    color: grey;\n  }\n\n  footer ul li {\n    cursor: pointer;\n  }\n\n  footer .license {\n    color: lightcoral;\n    text-align: center;\n  }", ""]);
 
 // exports
 
@@ -38,7 +38,7 @@ module.exports = module.exports.toString();
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<html>\n  <header>\n    <div class=\"navbar-wrapper\">\n      <nav class=\"navbar top-right-corner\">\n        <button i18n class=\"button button-register\">\n          Register\n        </button>\n        <button i18n class=\"button button-shoppingcart\">\n          Cart\n        </button>\n        <span class=\"language\">\n          <button i18n class=\"button button-language\" #language (mouseover)=\"showLanguages()\">\n            Language          \n          </button>\n          <ul [ngClass]=\"{'show': LanguagesDisplay}\">\n            <li (click)=\"changeLanguage('en')\" [ngClass]=\"{'current-language': currentLanguage=='en'}\">English</li>\n            <li (click)=\"changeLanguage('cn')\" [ngClass]=\"{'current-language': currentLanguage=='cn'}\">繁體</li>\n          </ul>\n        </span>\n        <button class=\"button\">\n          Hello\n        </button>\n        <app-hi></app-hi>\n      </nav>\n      <svg viewBox=\"0 0 482 239\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g>\n           <text stroke=\"#000\" transform=\"matrix(5.421545505523682,0,0,1,-963.2060537189245,0) \" xml:space=\"preserve\" text-anchor=\"start\" font-family=\"Arvo, sans-serif\" font-size=\"24\" id=\"svg_2\" y=\"162.5\" x=\"204.5\" stroke-opacity=\"null\" stroke-width=\"0\" fill=\"#e00dc4\"/>\n           <g stroke=\"null\" id=\"svg_5\">\n            <g stroke=\"null\" id=\"svg_6\">\n             <text stroke=\"#000\" transform=\"matrix(4.511603494040369,0,0,6.1904971279016,-429.8077073796526,-647.7798973388112) \" xml:space=\"preserve\" text-anchor=\"start\" font-family=\"Arvo, sans-serif\" font-size=\"24\" id=\"svg_4\" y=\"135.924681\" x=\"139.048624\" stroke-opacity=\"null\" stroke-width=\"0\" fill=\"#0813e0\">Shop</text>\n             <text stroke=\"#000\" font-style=\"italic\" font-weight=\"bold\" transform=\"matrix(6.212138336581791,0,0,6.402754395528727,-417.89967625896566,-702.535034933866) \" xml:space=\"preserve\" text-anchor=\"start\" font-family=\"Arvo, sans-serif\" font-size=\"24\" id=\"svg_1\" y=\"133.411022\" x=\"70.553689\" stroke-width=\"0\" fill=\"#e00dc4\">PET</text>\n            </g>\n           </g>\n          </g>\n      </svg>\n\n      <!-- Navigation with router directives-->\n      <nav class=\"navbar\">\n        <button i18n class=\"button\" [routerLink]=\"['/news']\">News</button>\n        <button i18n class=\"button\" [routerLink]=\"['/discounts']\">Discounts</button>\n        <button i18n class=\"button\" [routerLink]=\"['/delivery']\">Delivery</button>\n        <button i18n class=\"button\" [routerLink]=\"['/contact']\">Contact</button>\n      </nav>\n    </div>\n  </header>\n\n  <main>\n      <router-outlet></router-outlet>\n  </main>\n\n  <footer>\n    <ul>\n      <li i18n>Terms and Conditions</li>\n      <li i18n>Refund Policy</li>\n    </ul>\n    <div i18n class=\"license\">\n      @2017 license under .....\n    </div>\n    <div class=\"payment-method\">\n\n    </div>\n  </footer>\n</html>\n\n<!-- Router Outlet -->\n";
+module.exports = "<html>\n  <header>\n    <div class=\"navbar-wrapper\">\n      <nav class=\"navbar top-right-corner\">\n        <button i18n class=\"button button-register\">\n          Register\n        </button>\n        <button i18n class=\"button button-shoppingcart\">\n          Cart\n        </button>\n        <span class=\"language\">\n          <button i18n class=\"button button-language\" #language (mouseover)=\"showLanguages()\">\n            Language          \n          </button>\n          <ul [ngClass]=\"{'show': LanguagesDisplay}\">\n            <li (click)=\"changeLanguage('en')\" [ngClass]=\"{'current-language': currentLanguage=='en'}\">English</li>\n            <li (click)=\"changeLanguage('cn')\" [ngClass]=\"{'current-language': currentLanguage=='cn'}\">繁體</li>\n          </ul>\n        </span>\n      </nav>\n      <svg viewBox=\"0 0 482 239\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g>\n           <text stroke=\"#000\" transform=\"matrix(5.421545505523682,0,0,1,-963.2060537189245,0) \" xml:space=\"preserve\" text-anchor=\"start\" font-family=\"Arvo, sans-serif\" font-size=\"24\" id=\"svg_2\" y=\"162.5\" x=\"204.5\" stroke-opacity=\"null\" stroke-width=\"0\" fill=\"#e00dc4\"/>\n           <g stroke=\"null\" id=\"svg_5\">\n            <g stroke=\"null\" id=\"svg_6\">\n             <text stroke=\"#000\" transform=\"matrix(4.511603494040369,0,0,6.1904971279016,-429.8077073796526,-647.7798973388112) \" xml:space=\"preserve\" text-anchor=\"start\" font-family=\"Arvo, sans-serif\" font-size=\"24\" id=\"svg_4\" y=\"135.924681\" x=\"139.048624\" stroke-opacity=\"null\" stroke-width=\"0\" fill=\"#0813e0\">Shop</text>\n             <text stroke=\"#000\" font-style=\"italic\" font-weight=\"bold\" transform=\"matrix(6.212138336581791,0,0,6.402754395528727,-417.89967625896566,-702.535034933866) \" xml:space=\"preserve\" text-anchor=\"start\" font-family=\"Arvo, sans-serif\" font-size=\"24\" id=\"svg_1\" y=\"133.411022\" x=\"70.553689\" stroke-width=\"0\" fill=\"#e00dc4\">PET</text>\n            </g>\n           </g>\n          </g>\n      </svg>\n\n      <!-- Navigation with router directives-->\n      <nav class=\"navbar\">\n        <button i18n class=\"button\" [routerLink]=\"['/news']\">News</button>\n        <button i18n class=\"button\" [routerLink]=\"['/discounts']\">Discounts</button>\n        <button i18n class=\"button\" [routerLink]=\"['/delivery']\">Delivery</button>\n        <button i18n class=\"button\" [routerLink]=\"['/contact']\">Contact</button>\n      </nav>\n    </div>\n  </header>\n\n  <main>\n      <router-outlet></router-outlet>\n  </main>\n\n  <footer>\n    <ul>\n      <li i18n>Terms and Conditions</li>\n      <li i18n>Refund Policy</li>\n    </ul>\n    <div i18n class=\"license\">\n      @2017 license under .....\n    </div>\n    <div class=\"payment-method\">\n\n    </div>\n  </footer>\n</html>\n\n<!-- Router Outlet -->\n";
 
 /***/ }),
 
@@ -139,14 +139,12 @@ var _a, _b;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_route__ = __webpack_require__("./src/app/app.route.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__appbootstrap_service__ = __webpack_require__("./src/app/appbootstrap.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__i18n_service__ = __webpack_require__("./src/app/i18n.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__hi_hi_component__ = __webpack_require__("./src/app/hi/hi.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -175,8 +173,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__contact_contact_component__["a" /* ContactComponent */],
             __WEBPACK_IMPORTED_MODULE_6__delivery_delivery_component__["a" /* DeliveryComponent */],
             __WEBPACK_IMPORTED_MODULE_7__discounts_discounts_component__["a" /* DiscountsComponent */],
-            __WEBPACK_IMPORTED_MODULE_8__default_default_component__["a" /* DefaultComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__hi_hi_component__["a" /* HiComponent */]
+            __WEBPACK_IMPORTED_MODULE_8__default_default_component__["a" /* DefaultComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -516,67 +513,6 @@ DogListComponent = __decorate([
 ], DogListComponent);
 
 //# sourceMappingURL=dog-list.component.js.map
-
-/***/ }),
-
-/***/ "./src/app/hi/hi.component.css":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ "./src/app/hi/hi.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  hi works!\n</p>\n";
-
-/***/ }),
-
-/***/ "./src/app/hi/hi.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HiComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var HiComponent = (function () {
-    function HiComponent() {
-    }
-    HiComponent.prototype.ngOnInit = function () {
-    };
-    return HiComponent;
-}());
-HiComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
-        selector: 'app-hi',
-        template: __webpack_require__("./src/app/hi/hi.component.html"),
-        styles: [__webpack_require__("./src/app/hi/hi.component.css")]
-    }),
-    __metadata("design:paramtypes", [])
-], HiComponent);
-
-//# sourceMappingURL=hi.component.js.map
 
 /***/ }),
 
